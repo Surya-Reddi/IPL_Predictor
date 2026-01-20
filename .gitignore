@@ -13,8 +13,7 @@ ENV/
 .streamlit/secrets.toml
 
 # Data files (if large)
-*.pkl
-*.csv
+
 
 # OS
 .DS_Store
