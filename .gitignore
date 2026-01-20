@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data files (if large)
+*.pkl
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+```
+
+**Important Note:** You have `pipe.pkl` in your project. If it's small (<100MB), you can push it. If it's larger, you'll need to use Git LFS or host it elsewhere.
+
+### **Step 2: Prepare Your Project Structure**
+
+Your final structure should look like:
+```
+IPL_WIN_PREDICTOR-master/
+├── app.py                 # Your main Streamlit app
+├── css.py                 # Your CSS styling
+├── pipe.pkl               # Your trained model
+├── requirements.txt       # Python dependencies
+├── README.md             # Project description
+└── .gitignore            # Files to ignore
